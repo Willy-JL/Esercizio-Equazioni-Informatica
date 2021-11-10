@@ -11,13 +11,11 @@ def pulisci_schermo():
         os.system("clear")
 
 
-
 while True:
     pulisci_schermo()
     print()
     print("ax^2 + bx + c = ?")
     print()
-
 
     a = b = c = None
     print("(Lascia vuoto per uscire dal programa!)")
@@ -30,7 +28,7 @@ while True:
         print("Input invalido!")
         time.sleep(1)
         continue
-    
+
     try:
         b = input("Inserisci il valore di b: ")
         b = int(b)
@@ -70,4 +68,3 @@ while True:
 
     input("Premi [INVIO] per tornare al menu.")
     continue
-
